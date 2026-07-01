@@ -1,45 +1,36 @@
-# Практические задачи по машинному обучению
+# Практические испытания PostgreSQL
 
 ## Языки
 
-🇨🇳 [简体中文](README_zh.md) 🇪🇸 [Español](README_es.md) 🇫🇷 [Français](README_fr.md) 🇩🇪 [Deutsch](README_de.md) 🇯🇵 [日本語](README_ja.md) 🇷🇺 [Русский](README_ru.md) 🇰🇷 [한국어](README_ko.md) 🇧🇷 [Português](README_pt.md) 🇺🇸 [English](README.md) 
+🇨🇳 [简体中文](README_zh.md) 🇯🇵 [日本語](README_ja.md) 🇪🇸 [Español](README_es.md) 🇫🇷 [Français](README_fr.md) 🇩🇪 [Deutsch](README_de.md) 🇷🇺 [Русский](README_ru.md) 🇰🇷 [한국어](README_ko.md) 🇧🇷 [Português](README_pt.md) 🇺🇸 [English](README.md) 
 
-[![Практические задачи по машинному обучению](https://cover-creator.labex.io/ml-practice-challenges.png?lang=ru)](https://labex.io/ru/courses/ml-practice-challenges)
+<div align="center">
+<img width="128px" src="https://file.labex.io/upload/u/1991/Jn15AwavNm4f.png">
+</div>
 
-[![Start-Learning](https://img.shields.io/badge/Start-Learning-whitesmoke?style=for-the-badge)](https://labex.io/ru/courses/ml-practice-challenges)
+Изучите PostgreSQL с помощью комплексного учебного плана, разработанного для начинающих. Эти курсы PostgreSQL предлагают структурированную дорожную карту для освоения мощной реляционной системы баз данных с открытым исходным кодом. Пройдите темы, такие как основы SQL, проектирование баз данных и администрирование. Получите практический опыт в реальных условиях с помощью практических невидеоуроков и интерактивных упражнений в специализированной SQL-песочнице, ориентированной на управление базами данных и выполнение запросов.
 
-В этом курсе содержится множество задач по машинному обучению. Каждая задача представляет собой небольшой проект по машинному обучению с подробными инструкциями и решениями. Вы можете практиковать свои навыки машинного обучения, решая эти задачи, улучшить свои навыки решения проблем и научиться писать чистый и эффективный код.
+Просмотрите до 11 целевых испытаний PostgreSQL на LabEx. Каждое испытание открывается в интерактивной среде для отработки конкретных навыков.
 
-![Machine-Learning](https://img.shields.io/badge/Machine-Learning-whitesmoke?style=for-the-badge&logo=machine-learning)
+|   Индекс | Название                                                                                                                              | Навыки                                | Сложность   | Практика                                                                                              |
+|----------|---------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|-------------|-------------------------------------------------------------------------------------------------------|
+|       01 | [Проверка параметров подключения к PostgreSQL](https://labex.io/ru/labs/postgresql-verify-postgresql-connection-details-551083)       | Подключение к серверу                 | Средний     | [Начать Испытание](https://labex.io/ru/labs/postgresql-verify-postgresql-connection-details-551083)   |
+|       02 | [Создание собственной базы данных рецептов](https://labex.io/ru/labs/postgresql-create-your-own-recipe-database-551100)               | Жизненный цикл базы данных            | Средний     | [Начать Испытание](https://labex.io/ru/labs/postgresql-create-your-own-recipe-database-551100)        |
+|       03 | [Создание таблицы сотрудников в PostgreSQL](https://labex.io/ru/labs/postgresql-create-employee-table-in-postgresql-551115)           | Проектирование таблиц                 | Средний     | [Начать Испытание](https://labex.io/ru/labs/postgresql-create-employee-table-in-postgresql-551115)    |
+|       04 | [Управление данными сотрудников в PostgreSQL](https://labex.io/ru/labs/postgresql-manage-employee-data-in-postgresql-551130)          | Вставка данных                        | Средний     | [Начать Испытание](https://labex.io/ru/labs/postgresql-manage-employee-data-in-postgresql-551130)     |
+|       05 | [Поиск сотрудников отдела маркетинга в PostgreSQL](https://labex.io/ru/labs/postgresql-find-marketing-employees-in-postgresql-551146) | SELECT-запросы                        | Средний     | [Начать Испытание](https://labex.io/ru/labs/postgresql-find-marketing-employees-in-postgresql-551146) |
+|       06 | [Копирование файлов реестра клиентов](https://labex.io/ru/labs/copy-customer-ledger-files-705329)                                     | Импорт и экспорт                      | Начинающий  | [Начать Испытание](https://labex.io/ru/labs/copy-customer-ledger-files-705329)                        |
+|       07 | [Изоляция счетов арендаторов](https://labex.io/ru/labs/isolate-tenant-invoices-705330)                                                | Безопасность на уровне строк          | Начинающий  | [Начать Испытание](https://labex.io/ru/labs/isolate-tenant-invoices-705330)                           |
+|       08 | [Организация схем отчетности](https://labex.io/ru/labs/organize-reporting-schemas-705331)                                             | Схемы                                 | Начинающий  | [Начать Испытание](https://labex.io/ru/labs/organize-reporting-schemas-705331)                        |
+|       09 | [Исправление значений идентификаторов заказов](https://labex.io/ru/labs/repair-order-identity-values-705332)                          | Последовательности и identity-столбцы | Начинающий  | [Начать Испытание](https://labex.io/ru/labs/repair-order-identity-values-705332)                      |
+|       10 | [Принудительное использование проверенного SSL для Postgres](https://labex.io/ru/labs/require-verified-postgres-ssl-705333)           | Безопасные соединения                 | Начинающий  | [Начать Испытание](https://labex.io/ru/labs/require-verified-postgres-ssl-705333)                     |
+|       11 | [Обновление ленты цен на товары (Upsert)](https://labex.io/ru/labs/upsert-product-price-feed-705334)                                  | UPSERT-операции                       | Начинающий  | [Начать Испытание](https://labex.io/ru/labs/upsert-product-price-feed-705334)                         |
 
-
-## Упражнения
-
-|   Индекс | Название                                                    | Сложность   | Практика                                                                                                                              |
-|----------|-------------------------------------------------------------|-------------|---------------------------------------------------------------------------------------------------------------------------------------|
-|        1 | 🎯 🔵 Линейная регрессия                                    | Начинающий  | <a target='_blank' href='https://labex.io/ru/labs/python-linear-regression-185171'>Начать Испытание</a>                               |
-|        2 | 🎯 🔵 Понимание метрик и оценки                             | Начинающий  | <a target='_blank' href='https://labex.io/ru/labs/python-understanding-metrics-and-scoring-185172'>Начать Испытание</a>               |
-|        3 | 🎯 🔵 Кластеризация и инсайты                               | Начинающий  | <a target='_blank' href='https://labex.io/ru/labs/python-clustering-and-insights-198286'>Начать Испытание</a>                         |
-|        4 | 🎯 🔵 Классификация наивным Байесом                         | Начинающий  | <a target='_blank' href='https://labex.io/ru/labs/python-naive-bayes-classification-250427'>Начать Испытание</a>                      |
-|        5 | 🎯 🔵 Предсказание типов цветов с использованием ближайш... | Начинающий  | <a target='_blank' href='https://labex.io/ru/labs/sklearn-predicting-flower-types-with-nearest-neighbors-256147'>Начать Испытание</a> |
-
-## Среда
-
-LabEx - это интерактивная практическая обучающая платформа, посвященная программированию и технологиям. Она объединяет лаборатории, ИИ-помощь и виртуальные машины для обеспечения практического обучения без видео.
-
-![](https://tutorial-screenshot.getvm.io/images/vm-1725247253.png)
-
-- Строгий подход "Учись делая" с эксклюзивными практическими лабораториями без видео.
-- Интерактивные онлайн-среды в браузере с автоматизированными пошаговыми проверками.
-- Структурированная организация контента с системой на основе Дерева Навыков.
-- Растущий учебный ресурс из 30 Деревьев Навыков и более 6,000 Лабораторий.
-- Ассистент обучения Labby, построенный на последних моделях ИИ, обеспечивающий разговорный опыт обучения.
-
-Узнать больше о [LabEx VM](https://support.labex.io/using-labex/virtual-machine).
+[Посмотреть все испытания](https://labex.io/ru/learn/postgresql).
 
 ## Больше
 
-- 🔗 [Machine Learning Курсы программирования](https://github.com/labex-labs/awesome-programming-courses)
-- 🔗 [Machine Learning Проекты программирования](https://github.com/labex-labs/awesome-programming-projects)
-- 🔗 [Machine Learning Бесплатные туториалы](https://github.com/labex-labs/ml-free-tutorials)
+- 🔗 [Узнать больше о PostgreSQL на LabEx](https://labex.io/ru/learn/postgresql)
+- 🔗 [Посмотреть больше проектов программирования](https://github.com/labex-labs/awesome-programming-projects)
+- 🔗 [Посмотреть курсы программирования](https://github.com/labex-labs/awesome-programming-courses)
 
