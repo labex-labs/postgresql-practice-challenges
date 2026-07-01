@@ -1,45 +1,36 @@
-# 机器学习实践挑战
+# PostgreSQL 实践挑战
 
 ## 支持语言
 
-🇨🇳 [简体中文](README_zh.md) 🇪🇸 [Español](README_es.md) 🇫🇷 [Français](README_fr.md) 🇩🇪 [Deutsch](README_de.md) 🇯🇵 [日本語](README_ja.md) 🇷🇺 [Русский](README_ru.md) 🇰🇷 [한국어](README_ko.md) 🇧🇷 [Português](README_pt.md) 🇺🇸 [English](README.md) 
+🇨🇳 [简体中文](README_zh.md) 🇯🇵 [日本語](README_ja.md) 🇪🇸 [Español](README_es.md) 🇫🇷 [Français](README_fr.md) 🇩🇪 [Deutsch](README_de.md) 🇷🇺 [Русский](README_ru.md) 🇰🇷 [한국어](README_ko.md) 🇧🇷 [Português](README_pt.md) 🇺🇸 [English](README.md) 
 
-[![机器学习实践挑战](https://cover-creator.labex.io/ml-practice-challenges.png?lang=zh)](https://labex.io/zh/courses/ml-practice-challenges)
+<div align="center">
+<img width="128px" src="https://file.labex.io/upload/u/1991/Jn15AwavNm4f.png">
+</div>
 
-[![Start-Learning](https://img.shields.io/badge/Start-Learning-whitesmoke?style=for-the-badge)](https://labex.io/zh/courses/ml-practice-challenges)
+通过为初学者设计的综合学习路径来学习 PostgreSQL。这些 PostgreSQL 课程提供了一个结构化的路线图，帮助您掌握功能强大、开源的关系型数据库系统。逐步学习基础 SQL、数据库设计和管理等主题。通过动手实践、非视频教程和交互式练习，在专注于数据库管理和查询的专用 SQL 演练场中获得实用的真实世界经验。
 
-本课程包含大量机器学习挑战，每个挑战都是一个小的机器学习项目，配有详细的说明和解决方案。通过解决这些挑战，你可以练习机器学习技能，提高问题解决能力，并学习如何编写干净高效的代码。
+浏览 LabEx 上最多 11 个PostgreSQL专项挑战。每个挑战都会打开交互式环境，帮助你通过针对性练习巩固技能。
 
-![Machine-Learning](https://img.shields.io/badge/Machine-Learning-whitesmoke?style=for-the-badge&logo=machine-learning)
+|   序号 | 名称                                                                                                         | 技能        | 难度   | 练习                                                                                        |
+|------|------------------------------------------------------------------------------------------------------------|-----------|------|-------------------------------------------------------------------------------------------|
+|   01 | [验证 PostgreSQL 连接详情](https://labex.io/zh/labs/postgresql-verify-postgresql-connection-details-551083)      | 服务器连接     | 中级   | [开始挑战](https://labex.io/zh/labs/postgresql-verify-postgresql-connection-details-551083)   |
+|   02 | [创建你自己的食谱数据库](https://labex.io/zh/labs/postgresql-create-your-own-recipe-database-551100)                  | 数据库生命周期   | 中级   | [开始挑战](https://labex.io/zh/labs/postgresql-create-your-own-recipe-database-551100)        |
+|   03 | [在 PostgreSQL 中创建员工表](https://labex.io/zh/labs/postgresql-create-employee-table-in-postgresql-551115)      | 表设计       | 中级   | [开始挑战](https://labex.io/zh/labs/postgresql-create-employee-table-in-postgresql-551115)    |
+|   04 | [在 PostgreSQL 中管理员工数据](https://labex.io/zh/labs/postgresql-manage-employee-data-in-postgresql-551130)      | 数据插入      | 中级   | [开始挑战](https://labex.io/zh/labs/postgresql-manage-employee-data-in-postgresql-551130)     |
+|   05 | [在 PostgreSQL 中查找市场部员工](https://labex.io/zh/labs/postgresql-find-marketing-employees-in-postgresql-551146) | SELECT 查询 | 中级   | [开始挑战](https://labex.io/zh/labs/postgresql-find-marketing-employees-in-postgresql-551146) |
+|   06 | [复制客户账目文件](https://labex.io/zh/labs/copy-customer-ledger-files-705329)                                     | 导入和导出     | 初级   | [开始挑战](https://labex.io/zh/labs/copy-customer-ledger-files-705329)                        |
+|   07 | [隔离租户发票](https://labex.io/zh/labs/isolate-tenant-invoices-705330)                                          | 行级安全性     | 初级   | [开始挑战](https://labex.io/zh/labs/isolate-tenant-invoices-705330)                           |
+|   08 | [组织报表模式](https://labex.io/zh/labs/organize-reporting-schemas-705331)                                       | 模式        | 初级   | [开始挑战](https://labex.io/zh/labs/organize-reporting-schemas-705331)                        |
+|   09 | [修复订单标识值](https://labex.io/zh/labs/repair-order-identity-values-705332)                                    | 序列和标识列    | 初级   | [开始挑战](https://labex.io/zh/labs/repair-order-identity-values-705332)                      |
+|   10 | [强制要求已验证的 Postgres SSL](https://labex.io/zh/labs/require-verified-postgres-ssl-705333)                     | 安全连接      | 初级   | [开始挑战](https://labex.io/zh/labs/require-verified-postgres-ssl-705333)                     |
+|   11 | [更新产品价格数据流](https://labex.io/zh/labs/upsert-product-price-feed-705334)                                     | Upsert    | 初级   | [开始挑战](https://labex.io/zh/labs/upsert-product-price-feed-705334)                         |
 
-
-## 学习环境
-
-LabEx 是一个专注于编程和技术的交互式动手学习平台。它结合了实验室、AI 辅助和虚拟机，提供无视频的实践学习体验。
-
-![](https://tutorial-screenshot.getvm.io/images/vm-1725247253.png)
-
-- 严格的"边学边做"方法，提供独家动手实验，无视频。
-- 浏览器内的交互式在线环境，具有自动化的逐步检查。
-- 基于技能树的结构化内容组织系统。
-- 不断增长的学习资源，包含 30 个技能树和超过 6,000 个实验。
-- 基于 ChatGPT 构建的 AI 学习助手 Labby，提供对话式学习体验。
-
-了解更多 [LabEx VM](https://support.labex.io/using-labex/virtual-machine).
-
-## 练习
-
-|   序号 | 名称                           | 难度   | 练习                                                                                                                          |
-|--------|--------------------------------|--------|-------------------------------------------------------------------------------------------------------------------------------|
-|      1 | 🎯 线性回归                    | 初级   | <a target='_blank' href='https://labex.io/zh/labs/python-linear-regression-185171'>开始挑战</a>                               |
-|      2 | 🎯 理解指标与评分              | 初级   | <a target='_blank' href='https://labex.io/zh/labs/python-understanding-metrics-and-scoring-185172'>开始挑战</a>               |
-|      3 | 🎯 聚类与洞察                  | 初级   | <a target='_blank' href='https://labex.io/zh/labs/python-clustering-and-insights-198286'>开始挑战</a>                         |
-|      4 | 🎯 朴素贝叶斯分类              | 初级   | <a target='_blank' href='https://labex.io/zh/labs/python-naive-bayes-classification-250427'>开始挑战</a>                      |
-|      5 | 🎯 使用 k-近邻算法预测花卉类型 | 初级   | <a target='_blank' href='https://labex.io/zh/labs/sklearn-predicting-flower-types-with-nearest-neighbors-256147'>开始挑战</a> |
+[查看全部挑战](https://labex.io/zh/learn/postgresql).
 
 ## 更多
 
-- 🔗 [Machine Learning 编程课程](https://github.com/labex-labs/awesome-programming-courses)
-- 🔗 [Machine Learning 编程项目](https://github.com/labex-labs/awesome-programming-projects)
-- 🔗 [Machine Learning 免费教程](https://github.com/labex-labs/ml-free-tutorials)
+- 🔗 [在 LabEx 上了解更多PostgreSQL内容](https://labex.io/zh/learn/postgresql)
+- 🔗 [探索更多编程项目](https://github.com/labex-labs/awesome-programming-projects)
+- 🔗 [探索编程课程](https://github.com/labex-labs/awesome-programming-courses)
 
