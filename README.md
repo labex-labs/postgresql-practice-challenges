@@ -1,36 +1,36 @@
 # Practice PostgreSQL Challenges
 
-## Languages
+**Languages:** [English](README.md) · [简体中文](README_zh.md) · [日本語](README_ja.md) · [Español](README_es.md) · [Français](README_fr.md) · [Deutsch](README_de.md) · [Русский](README_ru.md) · [한국어](README_ko.md) · [Português](README_pt.md)
 
-🇨🇳 [简体中文](README_zh.md) 🇯🇵 [日本語](README_ja.md) 🇪🇸 [Español](README_es.md) 🇫🇷 [Français](README_fr.md) 🇩🇪 [Deutsch](README_de.md) 🇷🇺 [Русский](README_ru.md) 🇰🇷 [한국어](README_ko.md) 🇧🇷 [Português](README_pt.md) 🇺🇸 [English](README.md) 
-
-<div align="center">
-<img width="128px" src="https://file.labex.io/upload/u/1991/Jn15AwavNm4f.png">
-</div>
+<p align="center">
+  <a href="https://labex.io/learn/postgresql">
+    <img width="128" src="https://file.labex.io/upload/u/1991/Jn15AwavNm4f.png" alt="PostgreSQL">
+  </a>
+</p>
 
 Learn PostgreSQL with a comprehensive learning path designed for beginners. These PostgreSQL courses provide a structured roadmap to master the powerful, open-source relational database system. Progress through topics like fundamental SQL, database design, and administration. Gain practical, real-world experience through hands-on, non-video tutorials and interactive exercises in a dedicated SQL playground focused on database management and querying.
 
+[Start Challenges on LabEx](https://labex.io/learn/postgresql)
+
 Browse up to 11 focused PostgreSQL challenges from LabEx. Each challenge opens in an interactive environment so you can build skills through targeted practice.
 
-|   Index | Name                                                                                                                     | Skills                 | Difficulty   | Practice                                                                                          |
-|---------|--------------------------------------------------------------------------------------------------------------------------|------------------------|--------------|---------------------------------------------------------------------------------------------------|
-|      01 | [Verify PostgreSQL Connection Details](https://labex.io/labs/postgresql-verify-postgresql-connection-details-551083)     | Server Connection      | Intermediate | [Start Challenge](https://labex.io/labs/postgresql-verify-postgresql-connection-details-551083)   |
-|      02 | [Create Your Own Recipe Database](https://labex.io/labs/postgresql-create-your-own-recipe-database-551100)               | Database Lifecycle     | Intermediate | [Start Challenge](https://labex.io/labs/postgresql-create-your-own-recipe-database-551100)        |
-|      03 | [Create Employee Table in PostgreSQL](https://labex.io/labs/postgresql-create-employee-table-in-postgresql-551115)       | Table Design           | Intermediate | [Start Challenge](https://labex.io/labs/postgresql-create-employee-table-in-postgresql-551115)    |
-|      04 | [Manage Employee Data in PostgreSQL](https://labex.io/labs/postgresql-manage-employee-data-in-postgresql-551130)         | Data Insertion         | Intermediate | [Start Challenge](https://labex.io/labs/postgresql-manage-employee-data-in-postgresql-551130)     |
-|      05 | [Find Marketing Employees in PostgreSQL](https://labex.io/labs/postgresql-find-marketing-employees-in-postgresql-551146) | Select Queries         | Intermediate | [Start Challenge](https://labex.io/labs/postgresql-find-marketing-employees-in-postgresql-551146) |
-|      06 | [Copy Customer Ledger Files](https://labex.io/labs/copy-customer-ledger-files-705329)                                    | Import and Export      | Beginner     | [Start Challenge](https://labex.io/labs/copy-customer-ledger-files-705329)                        |
-|      07 | [Isolate Tenant Invoices](https://labex.io/labs/isolate-tenant-invoices-705330)                                          | Row-Level Security     | Beginner     | [Start Challenge](https://labex.io/labs/isolate-tenant-invoices-705330)                           |
-|      08 | [Organize Reporting Schemas](https://labex.io/labs/organize-reporting-schemas-705331)                                    | Schemas                | Beginner     | [Start Challenge](https://labex.io/labs/organize-reporting-schemas-705331)                        |
-|      09 | [Repair Order Identity Values](https://labex.io/labs/repair-order-identity-values-705332)                                | Sequences and Identity | Beginner     | [Start Challenge](https://labex.io/labs/repair-order-identity-values-705332)                      |
-|      10 | [Require Verified Postgres SSL](https://labex.io/labs/require-verified-postgres-ssl-705333)                              | Secure Connections     | Beginner     | [Start Challenge](https://labex.io/labs/require-verified-postgres-ssl-705333)                     |
-|      11 | [Upsert Product Price Feed](https://labex.io/labs/upsert-product-price-feed-705334)                                      | Upserts                | Beginner     | [Start Challenge](https://labex.io/labs/upsert-product-price-feed-705334)                         |
+|   Index | Name                                                                                                                     | Difficulty   | Practice                                                                                          |
+|---------|--------------------------------------------------------------------------------------------------------------------------|--------------|---------------------------------------------------------------------------------------------------|
+|      01 | [Verify PostgreSQL Connection Details](https://labex.io/labs/postgresql-verify-postgresql-connection-details-551083)     | Intermediate | [Start Challenge](https://labex.io/labs/postgresql-verify-postgresql-connection-details-551083)   |
+|      02 | [Create Your Own Recipe Database](https://labex.io/labs/postgresql-create-your-own-recipe-database-551100)               | Intermediate | [Start Challenge](https://labex.io/labs/postgresql-create-your-own-recipe-database-551100)        |
+|      03 | [Create Employee Table in PostgreSQL](https://labex.io/labs/postgresql-create-employee-table-in-postgresql-551115)       | Intermediate | [Start Challenge](https://labex.io/labs/postgresql-create-employee-table-in-postgresql-551115)    |
+|      04 | [Manage Employee Data in PostgreSQL](https://labex.io/labs/postgresql-manage-employee-data-in-postgresql-551130)         | Intermediate | [Start Challenge](https://labex.io/labs/postgresql-manage-employee-data-in-postgresql-551130)     |
+|      05 | [Find Marketing Employees in PostgreSQL](https://labex.io/labs/postgresql-find-marketing-employees-in-postgresql-551146) | Intermediate | [Start Challenge](https://labex.io/labs/postgresql-find-marketing-employees-in-postgresql-551146) |
+|      06 | [Copy Customer Ledger Files](https://labex.io/labs/copy-customer-ledger-files-705329)                                    | Beginner     | [Start Challenge](https://labex.io/labs/copy-customer-ledger-files-705329)                        |
+|      07 | [Isolate Tenant Invoices](https://labex.io/labs/isolate-tenant-invoices-705330)                                          | Beginner     | [Start Challenge](https://labex.io/labs/isolate-tenant-invoices-705330)                           |
+|      08 | [Organize Reporting Schemas](https://labex.io/labs/organize-reporting-schemas-705331)                                    | Beginner     | [Start Challenge](https://labex.io/labs/organize-reporting-schemas-705331)                        |
+|      09 | [Repair Order Identity Values](https://labex.io/labs/repair-order-identity-values-705332)                                | Beginner     | [Start Challenge](https://labex.io/labs/repair-order-identity-values-705332)                      |
+|      10 | [Require Verified Postgres SSL](https://labex.io/labs/require-verified-postgres-ssl-705333)                              | Beginner     | [Start Challenge](https://labex.io/labs/require-verified-postgres-ssl-705333)                     |
+|      11 | [Upsert Product Price Feed](https://labex.io/labs/upsert-product-price-feed-705334)                                      | Beginner     | [Start Challenge](https://labex.io/labs/upsert-product-price-feed-705334)                         |
 
-[View all challenges](https://labex.io/learn/postgresql).
+[View More on LabEx](https://labex.io/learn/postgresql)
 
-## More
+## About LabEx
 
-- 🔗 [Learn more about PostgreSQL on LabEx](https://labex.io/learn/postgresql)
-- 🔗 [Explore more programming projects](https://github.com/labex-labs/awesome-programming-projects)
-- 🔗 [Explore programming courses](https://github.com/labex-labs/awesome-programming-courses)
+<div align="left"><p><a href="https://labex.io"><strong>LabEx</strong></a> is a <strong>hands-on learning platform for beginners</strong>.</p><p>Explore <a href="https://labex.io/learn/linux"><strong>Linux</strong></a>, <a href="https://labex.io/learn/devops"><strong>DevOps</strong></a>, <a href="https://labex.io/learn/cybersecurity"><strong>Cybersecurity</strong></a>, and <strong>more</strong> — all directly in your browser.</p><p>Learn step by step through <strong>interactive labs</strong>, <strong>guided exercises</strong>, and <strong>real-world projects</strong>. 🌱<br />No setup, no stress — just practice and grow your skills by doing.</p><br /><p><a href="https://apps.apple.com/app/id6765840991"><img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="Download on the App Store" height="54" /></a>&nbsp;<a href="https://apps.apple.com/app/id6765840991"><img src="https://developer.apple.com/app-store/marketing/guidelines/images/badge-download-on-the-mac-app-store.svg" alt="Download on the Mac App Store" height="52" /></a></p><br /><p>📖 Need help? Visit our <a href="https://support.labex.io/">Help Center</a> or email info@labex.io</p></div>
 
