@@ -1,45 +1,36 @@
-# Desafíos de Práctica en Aprendizaje Automático
+# Desafíos prácticos de PostgreSQL
 
 ## Idiomas
 
-🇨🇳 [简体中文](README_zh.md) 🇪🇸 [Español](README_es.md) 🇫🇷 [Français](README_fr.md) 🇩🇪 [Deutsch](README_de.md) 🇯🇵 [日本語](README_ja.md) 🇷🇺 [Русский](README_ru.md) 🇰🇷 [한국어](README_ko.md) 🇧🇷 [Português](README_pt.md) 🇺🇸 [English](README.md) 
+🇨🇳 [简体中文](README_zh.md) 🇯🇵 [日本語](README_ja.md) 🇪🇸 [Español](README_es.md) 🇫🇷 [Français](README_fr.md) 🇩🇪 [Deutsch](README_de.md) 🇷🇺 [Русский](README_ru.md) 🇰🇷 [한국어](README_ko.md) 🇧🇷 [Português](README_pt.md) 🇺🇸 [English](README.md) 
 
-[![Desafíos de Práctica en Aprendizaje Automático](https://cover-creator.labex.io/ml-practice-challenges.png?lang=es)](https://labex.io/es/courses/ml-practice-challenges)
+<div align="center">
+<img width="128px" src="https://file.labex.io/upload/u/1991/Jn15AwavNm4f.png">
+</div>
 
-[![Start-Learning](https://img.shields.io/badge/Start-Learning-whitesmoke?style=for-the-badge)](https://labex.io/es/courses/ml-practice-challenges)
+Aprende PostgreSQL con una ruta de aprendizaje integral diseñada para principiantes. Estos cursos de PostgreSQL proporcionan un camino estructurado para dominar el potente sistema de gestión de bases de datos relacionales de código abierto. Avanza a través de temas como SQL fundamental, diseño de bases de datos y administración. Gana experiencia práctica y real a través de tutoriales prácticos sin video y ejercicios interactivos en un entorno SQL dedicado, centrado en la gestión y consulta de bases de datos.
 
-Este curso contiene muchos desafíos de Aprendizaje Automático. Cada desafío es un pequeño proyecto de Aprendizaje Automático con instrucciones detalladas y soluciones. Puedes practicar tus habilidades de Aprendizaje Automático resolviendo estos desafíos, mejorar tus habilidades para resolver problemas y aprender a escribir código limpio y eficiente.
+Explora hasta 11 desafíos específicos de PostgreSQL en LabEx. Cada desafío se abre en un entorno interactivo para practicar habilidades concretas.
 
-![Machine-Learning](https://img.shields.io/badge/Machine-Learning-whitesmoke?style=for-the-badge&logo=machine-learning)
+|   Índice | Nombre                                                                                                                                | Habilidades                       | Dificultad   | Práctica                                                                                             |
+|----------|---------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------|--------------|------------------------------------------------------------------------------------------------------|
+|       01 | [Verificar los detalles de conexión de PostgreSQL](https://labex.io/es/labs/postgresql-verify-postgresql-connection-details-551083)   | Conexión del servidor             | Intermedio   | [Iniciar Desafío](https://labex.io/es/labs/postgresql-verify-postgresql-connection-details-551083)   |
+|       02 | [Crea tu propia base de datos de recetas](https://labex.io/es/labs/postgresql-create-your-own-recipe-database-551100)                 | Ciclo de vida de la base de datos | Intermedio   | [Iniciar Desafío](https://labex.io/es/labs/postgresql-create-your-own-recipe-database-551100)        |
+|       03 | [Crear la tabla de empleados en PostgreSQL](https://labex.io/es/labs/postgresql-create-employee-table-in-postgresql-551115)           | Diseño de tablas                  | Intermedio   | [Iniciar Desafío](https://labex.io/es/labs/postgresql-create-employee-table-in-postgresql-551115)    |
+|       04 | [Gestión de Datos de Empleados en PostgreSQL](https://labex.io/es/labs/postgresql-manage-employee-data-in-postgresql-551130)          | Inserción de datos                | Intermedio   | [Iniciar Desafío](https://labex.io/es/labs/postgresql-manage-employee-data-in-postgresql-551130)     |
+|       05 | [Búsqueda de Empleados de Marketing en PostgreSQL](https://labex.io/es/labs/postgresql-find-marketing-employees-in-postgresql-551146) | Consultas SELECT                  | Intermedio   | [Iniciar Desafío](https://labex.io/es/labs/postgresql-find-marketing-employees-in-postgresql-551146) |
+|       06 | [Copiar archivos del libro mayor de clientes](https://labex.io/es/labs/copy-customer-ledger-files-705329)                             | Importar y Exportar               | Principiante | [Iniciar Desafío](https://labex.io/es/labs/copy-customer-ledger-files-705329)                        |
+|       07 | [Aislar facturas de inquilinos](https://labex.io/es/labs/isolate-tenant-invoices-705330)                                              | Seguridad a nivel de fila         | Principiante | [Iniciar Desafío](https://labex.io/es/labs/isolate-tenant-invoices-705330)                           |
+|       08 | [Organizar esquemas de informes](https://labex.io/es/labs/organize-reporting-schemas-705331)                                          | Esquemas                          | Principiante | [Iniciar Desafío](https://labex.io/es/labs/organize-reporting-schemas-705331)                        |
+|       09 | [Reparar valores de identidad de pedidos](https://labex.io/es/labs/repair-order-identity-values-705332)                               | Secuencias e identidad            | Principiante | [Iniciar Desafío](https://labex.io/es/labs/repair-order-identity-values-705332)                      |
+|       10 | [Requerir SSL verificado para Postgres](https://labex.io/es/labs/require-verified-postgres-ssl-705333)                                | Conexiones seguras                | Principiante | [Iniciar Desafío](https://labex.io/es/labs/require-verified-postgres-ssl-705333)                     |
+|       11 | [Actualización (Upsert) de la fuente de precios de productos](https://labex.io/es/labs/upsert-product-price-feed-705334)              | Upserts                           | Principiante | [Iniciar Desafío](https://labex.io/es/labs/upsert-product-price-feed-705334)                         |
 
-
-## Ejercicios
-
-|   Índice | Nombre                                                      | Dificultad   | Práctica                                                                                                                             |
-|----------|-------------------------------------------------------------|--------------|--------------------------------------------------------------------------------------------------------------------------------------|
-|        1 | 🎯 🔵 Regresión Lineal                                      | Principiante | <a target='_blank' href='https://labex.io/es/labs/python-linear-regression-185171'>Iniciar Desafío</a>                               |
-|        2 | 🎯 🔵 Comprender Métricas y Puntuación                      | Principiante | <a target='_blank' href='https://labex.io/es/labs/python-understanding-metrics-and-scoring-185172'>Iniciar Desafío</a>               |
-|        3 | 🎯 🔵 Agrupamiento e Insights                               | Principiante | <a target='_blank' href='https://labex.io/es/labs/python-clustering-and-insights-198286'>Iniciar Desafío</a>                         |
-|        4 | 🎯 🔵 Clasificación de Bayes ingenuo                        | Principiante | <a target='_blank' href='https://labex.io/es/labs/python-naive-bayes-classification-250427'>Iniciar Desafío</a>                      |
-|        5 | 🎯 🔵 Predecir los Tipos de Flores con Vecinos Más Cerca... | Principiante | <a target='_blank' href='https://labex.io/es/labs/sklearn-predicting-flower-types-with-nearest-neighbors-256147'>Iniciar Desafío</a> |
-
-## Entorno
-
-LabEx es una plataforma de aprendizaje interactiva y práctica dedicada a la programación y la tecnología. Combina laboratorios, asistencia de IA y máquinas virtuales para proporcionar una experiencia de aprendizaje práctica sin videos.
-
-![](https://tutorial-screenshot.getvm.io/images/vm-1725247253.png)
-
-- Un enfoque estricto de "Aprender Haciendo" con laboratorios prácticos exclusivos y sin videos.
-- Entornos en línea interactivos dentro del navegador, con verificaciones paso a paso automatizadas.
-- Una organización de contenido estructurada con el sistema basado en Árbol de Habilidades.
-- Un recurso de aprendizaje en crecimiento de 30 Árboles de Habilidades y más de 6,000 Laboratorios.
-- El asistente de aprendizaje Labby, construido sobre los últimos modelos de IA, que proporciona una experiencia de aprendizaje conversacional.
-
-Aprende más sobre [LabEx VM](https://support.labex.io/using-labex/virtual-machine).
+[Ver todos los desafíos](https://labex.io/es/learn/postgresql).
 
 ## Más
 
-- 🔗 [Machine Learning Cursos de Programación](https://github.com/labex-labs/awesome-programming-courses)
-- 🔗 [Machine Learning Proyectos de Programación](https://github.com/labex-labs/awesome-programming-projects)
-- 🔗 [Machine Learning Tutoriales Gratuitos](https://github.com/labex-labs/ml-free-tutorials)
+- 🔗 [Aprende más sobre PostgreSQL en LabEx](https://labex.io/es/learn/postgresql)
+- 🔗 [Explora más proyectos de programación](https://github.com/labex-labs/awesome-programming-projects)
+- 🔗 [Explora cursos de programación](https://github.com/labex-labs/awesome-programming-courses)
 
