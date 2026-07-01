@@ -1,45 +1,36 @@
-# 機械学習実践チャレンジ
+# PostgreSQL 実践チャレンジ
 
 ## 言語
 
-🇨🇳 [简体中文](README_zh.md) 🇪🇸 [Español](README_es.md) 🇫🇷 [Français](README_fr.md) 🇩🇪 [Deutsch](README_de.md) 🇯🇵 [日本語](README_ja.md) 🇷🇺 [Русский](README_ru.md) 🇰🇷 [한국어](README_ko.md) 🇧🇷 [Português](README_pt.md) 🇺🇸 [English](README.md) 
+🇨🇳 [简体中文](README_zh.md) 🇯🇵 [日本語](README_ja.md) 🇪🇸 [Español](README_es.md) 🇫🇷 [Français](README_fr.md) 🇩🇪 [Deutsch](README_de.md) 🇷🇺 [Русский](README_ru.md) 🇰🇷 [한국어](README_ko.md) 🇧🇷 [Português](README_pt.md) 🇺🇸 [English](README.md) 
 
-[![機械学習実践チャレンジ](https://cover-creator.labex.io/ml-practice-challenges.png?lang=ja)](https://labex.io/ja/courses/ml-practice-challenges)
+<div align="center">
+<img width="128px" src="https://file.labex.io/upload/u/1991/Jn15AwavNm4f.png">
+</div>
 
-[![Start-Learning](https://img.shields.io/badge/Start-Learning-whitesmoke?style=for-the-badge)](https://labex.io/ja/courses/ml-practice-challenges)
+初心者向けに設計された包括的な学習パスで PostgreSQL を習得しましょう。これらの PostgreSQL コースは、強力なオープンソースのリレーショナルデータベースシステムをマスターするための体系的なロードマップを提供します。基本的な SQL、データベース設計、管理などのトピックを進めていきます。実践的な非ビデオチュートリアルと、データベース管理とクエリに特化した SQL プレイグラウンドでのインタラクティブな演習を通じて、実世界の経験を積むことができます。
 
-このコースには機械学習に関する多数のチャレンジが含まれています。各チャレンジは詳細な指示と解決策を備えた小規模な機械学習プロジェクトです。これらのチャレンジを解くことで、機械学習のスキルを練習し、問題解決能力を向上させ、クリーンで効率的なコードの書き方を学ぶことができます。
+LabEx の最大 11 個の PostgreSQL 集中チャレンジを一覧できます。各チャレンジはインタラクティブ環境で開き、特定のスキルを練習できます。
 
-![Machine-Learning](https://img.shields.io/badge/Machine-Learning-whitesmoke?style=for-the-badge&logo=machine-learning)
+|   インデックス | 名前                                                                                                                  | スキル            | 難易度   | 練習                                                                                            |
+|----------|---------------------------------------------------------------------------------------------------------------------|----------------|-------|-----------------------------------------------------------------------------------------------|
+|       01 | [PostgreSQL の接続詳細の確認](https://labex.io/ja/labs/postgresql-verify-postgresql-connection-details-551083)              | サーバー接続         | 中級    | [チャレンジを開始](https://labex.io/ja/labs/postgresql-verify-postgresql-connection-details-551083)   |
+|       02 | [独自のレシピデータベースの作成](https://labex.io/ja/labs/postgresql-create-your-own-recipe-database-551100)                       | データベースのライフサイクル | 中級    | [チャレンジを開始](https://labex.io/ja/labs/postgresql-create-your-own-recipe-database-551100)        |
+|       03 | [PostgreSQL での従業員連絡先テーブルの作成](https://labex.io/ja/labs/postgresql-create-employee-table-in-postgresql-551115)        | テーブル設計         | 中級    | [チャレンジを開始](https://labex.io/ja/labs/postgresql-create-employee-table-in-postgresql-551115)    |
+|       04 | [PostgreSQL における従業員データの管理](https://labex.io/ja/labs/postgresql-manage-employee-data-in-postgresql-551130)           | データの挿入         | 中級    | [チャレンジを開始](https://labex.io/ja/labs/postgresql-manage-employee-data-in-postgresql-551130)     |
+|       05 | [PostgreSQL でマーケティング部門の従業員を抽出する](https://labex.io/ja/labs/postgresql-find-marketing-employees-in-postgresql-551146) | SELECT クエリ     | 中級    | [チャレンジを開始](https://labex.io/ja/labs/postgresql-find-marketing-employees-in-postgresql-551146) |
+|       06 | [顧客台帳ファイルのコピー](https://labex.io/ja/labs/copy-customer-ledger-files-705329)                                          | インポートとエクスポート   | 初級    | [チャレンジを開始](https://labex.io/ja/labs/copy-customer-ledger-files-705329)                        |
+|       07 | [テナント請求書の分離](https://labex.io/ja/labs/isolate-tenant-invoices-705330)                                               | 行レベルのセキュリティ    | 初級    | [チャレンジを開始](https://labex.io/ja/labs/isolate-tenant-invoices-705330)                           |
+|       08 | [レポート用スキーマの整理](https://labex.io/ja/labs/organize-reporting-schemas-705331)                                          | スキーマ           | 初級    | [チャレンジを開始](https://labex.io/ja/labs/organize-reporting-schemas-705331)                        |
+|       09 | [注文 ID 値の修正](https://labex.io/ja/labs/repair-order-identity-values-705332)                                          | シーケンスと ID 列    | 初級    | [チャレンジを開始](https://labex.io/ja/labs/repair-order-identity-values-705332)                      |
+|       10 | [PostgreSQL で SSL 接続を必須にする](https://labex.io/ja/labs/require-verified-postgres-ssl-705333)                          | 安全な接続          | 初級    | [チャレンジを開始](https://labex.io/ja/labs/require-verified-postgres-ssl-705333)                     |
+|       11 | [製品価格フィードのアップサート](https://labex.io/ja/labs/upsert-product-price-feed-705334)                                        | アップサート         | 初級    | [チャレンジを開始](https://labex.io/ja/labs/upsert-product-price-feed-705334)                         |
 
-
-## 演習
-
-|   インデックス | 名前                               | 難易度   | 練習                                                                                                                                  |
-|----------------|------------------------------------|----------|---------------------------------------------------------------------------------------------------------------------------------------|
-|              1 | 🎯 🔵 線形回帰                     | 初級     | <a target='_blank' href='https://labex.io/ja/labs/python-linear-regression-185171'>チャレンジを開始</a>                               |
-|              2 | 🎯 🔵 メトリックスと評価の理解     | 初級     | <a target='_blank' href='https://labex.io/ja/labs/python-understanding-metrics-and-scoring-185172'>チャレンジを開始</a>               |
-|              3 | 🎯 🔵 クラスタリングと洞察         | 初級     | <a target='_blank' href='https://labex.io/ja/labs/python-clustering-and-insights-198286'>チャレンジを開始</a>                         |
-|              4 | 🎯 🔵 ナイーブベイズ分類           | 初級     | <a target='_blank' href='https://labex.io/ja/labs/python-naive-bayes-classification-250427'>チャレンジを開始</a>                      |
-|              5 | 🎯 🔵 近傍法を用いた花の種類の予測 | 初級     | <a target='_blank' href='https://labex.io/ja/labs/sklearn-predicting-flower-types-with-nearest-neighbors-256147'>チャレンジを開始</a> |
-
-## 環境
-
-LabEx は、コーディングとテクノロジーに特化したインタラクティブな実践学習プラットフォームです。ラボ、AI 支援、仮想マシンを組み合わせて、ビデオなしの実践的な学習体験を提供します。
-
-![](https://tutorial-screenshot.getvm.io/images/vm-1725247253.png)
-
-- 動画なしの独自の実践ラボによる厳格な「実践による学習」アプローチ。
-- ブラウザ内のインタラクティブなオンライン環境で、自動化されたステップバイステップのチェック機能。
-- スキルツリーベースのシステムによる構造化されたコンテンツ組織。
-- 30 のスキルツリーと 6,000 以上のラボを含む成長し続ける学習リソース。
-- 最新の AI モデルを基盤とした学習アシスタント Labby による対話型学習体験。
-
-詳細について [LabEx VM](https://support.labex.io/using-labex/virtual-machine).
+[すべてのチャレンジを見る](https://labex.io/ja/learn/postgresql).
 
 ## その他
 
-- 🔗 [Machine Learning プログラミングコース](https://github.com/labex-labs/awesome-programming-courses)
-- 🔗 [Machine Learning プログラミングプロジェクト](https://github.com/labex-labs/awesome-programming-projects)
-- 🔗 [Machine Learning 無料チュートリアル](https://github.com/labex-labs/ml-free-tutorials)
+- 🔗 [LabEx で PostgreSQL について詳しく見る](https://labex.io/ja/learn/postgresql)
+- 🔗 [さらにプログラミングプロジェクトを見る](https://github.com/labex-labs/awesome-programming-projects)
+- 🔗 [プログラミングコースを見る](https://github.com/labex-labs/awesome-programming-courses)
 
